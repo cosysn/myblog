@@ -30,15 +30,15 @@
               <div class="brand-logo">
                 <img src="{%static "admin/img/logo.svg"%}">
               </div>
-              <form class="pt-3">
+              <form class="pt-3" method="post" action="../auth/Login">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="用户名">
+                  <input type="text" name="username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="用户名">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="密码">
+                  <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="密码">
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="{{ app_path }}">登录</a>
+                  <input type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn"></input>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="text-center mt-4 font-weight-light">
-                  没有博客账号? <a href="register.html" class="text-primary">创建</a>
+                  没有博客账号? <a href="../register/" class="text-primary">创建</a>
                 </div>
               </form>
             </div>
@@ -64,9 +64,9 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="{%static "admin/vendors/js/vendor.bundle.base.js"%}"></script>
-  <script src="{%static "admin/vendors/js/vendor.bundle.addons.js"%}"></script>
-  <!-- endinject -->
+  <script src=c="{%static "admin/vendors/js/vendor.bundle.addons.js"%}"></script>
+  <!-- en"{%static "admin/vendors/js/vendor.bundle.base.js"%}"></script>
+  <script srdinject -->
   <!-- inject:js -->
   <script src="{%static "admin/js/off-canvas.js"%}"></script>
   <script src="{%static "admin/js/misc.js"%}"></script>

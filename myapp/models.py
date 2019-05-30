@@ -16,7 +16,7 @@ class BlogUser(AbstractUser):
         verbose_name='用户'
         verbose_name_plural = verbose_name
         ordering = ['-id']
-    
+
     def __str__(self):
         return self.username
     

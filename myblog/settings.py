@@ -31,8 +31,9 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    # 'django.contrib.admin',
+    #'django.contrib.admin',
     # 'django.contrib.admin.apps.SimpleAdminConfig',
+    'rest_framework',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -82,7 +83,7 @@ DATABASES = {
         'NAME': 'myblog',
         'USER': 'shining',
         'PASSWORD': 'sp-cc123',
-        'HOST': '192.168.1.100',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }

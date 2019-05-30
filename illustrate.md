@@ -1,0 +1,28 @@
+#说明
+##文件夹说明
+<table>
+    <tr>
+        <th>文件夹</th>
+        <th>说明</th> 
+    </tr>
+    <tr>
+        <th>admin</th>  
+        <th>博客的后台管理相关</th>
+    </tr>
+    <tr>
+        <th>myapp</th>   
+        <th>数据库</th>
+    </tr>
+    <tr>
+        <th>myblog</th>  
+        <th>博客的总体配置</th>
+    </tr>
+    <tr>
+        <th>user</th>
+        <th>用户的注册等相关</th>
+    </tr>
+    <tr>
+        <th>utils</th>
+        <th>工具类</th>
+    </tr>
+</table>
